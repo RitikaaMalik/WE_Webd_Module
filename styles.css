@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background: #343a40;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    background: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+h2:hover {
+    background: #0056b3;
+}
+
+h3 {
+    background: #e2e2e2;
+    color: #333;
+    padding: 8px;
+    margin: 10px 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+h3:hover {
+    background: #d4d4d4;
+}
+
+p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.collapsible {
+    display: block;
+}
+
+.collapsible-content {
+    display: none;
+    padding-left: 20px;
+}
+
+#table-of-contents {
+    margin: 20px 0;
+}
+
+#table-of-contents ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#table-of-contents li {
+    margin: 5px 0;
+}
+
+#table-of-contents a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+#table-of-contents a:hover {
+    color: #0056b3;
+}
